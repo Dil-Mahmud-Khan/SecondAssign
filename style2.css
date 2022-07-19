@@ -195,3 +195,125 @@ footer{
     color: rgb(167, 169, 172);
     cursor: pointer;
 }
+
+@media screen and (min-width:0px) and (max-width:576px) {
+    .blackdiv {
+        display: inline-block;
+    }
+
+    .sec2 {
+        display: inline-block;
+    }
+
+    .salah {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .flag{
+        justify-content: center;
+    }
+
+    footer {
+        height: 600px;
+        width: 100%;
+        background-color: rgba(27, 27, 27, 0.938);
+        text-align: center;
+
+    }
+
+    .menu {
+        margin-left: 120px;
+        background-color: white;
+
+    }
+
+    .all {
+        border: 1px solid rgb(175, 173, 173);
+    }
+
+    .no {
+        border: 1px solid rgb(175, 173, 173);
+    }
+
+    .cardsalah {
+        
+        margin-left: 90px;
+    }
+    .football{
+        display: inline;
+    }
+
+    .foot ul li {
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+        color: rgb(167, 169, 172);
+        cursor: pointer;
+        align-items: center;
+        padding-right: 150px;
+    }
+
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .blackdiv {
+        display: flex;
+    }
+
+    .sec2 {
+        display: inline-block;
+    }
+    .marcelo{
+        padding-top: 80px;
+    }
+
+    .salah {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
+    }
+
+    footer {
+        height: 400px;
+        width: 100%;
+        background-color: rgba(27, 27, 27, 0.938);
+        text-align: center;        
+
+    }
+    .menu {
+        display: inline;
+        
+        background-color: white;
+
+    }
+    .menu ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .all {
+        border: 1px solid rgb(175, 173, 173);
+    }
+
+    .no {
+        border: 1px solid rgb(175, 173, 173);
+    }
+    .football{
+        margin: 90px;
+    }
+
+    .cardsalah {
+        margin-left: 110px;
+        
+    }
+
+    .foot ul li {
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+        color: rgb(167, 169, 172);
+        cursor: pointer;
+        align-items: center;
+        padding-right: 150px;
+    }
+    
+}
