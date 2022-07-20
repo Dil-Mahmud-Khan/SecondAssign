@@ -146,8 +146,9 @@ body {
 .salah {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 150px;
+    column-gap: 30px;
     row-gap: 10px;
+    justify-content: space-evenly;
 
 
 }
@@ -173,8 +174,7 @@ footer {
 .foot ul li {
     text-decoration: none;
     display: inline-block;
-    padding: 6px;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 10px;
     color: rgb(167, 169, 172);
     cursor: pointer;
@@ -202,7 +202,7 @@ footer {
     visibility: hidden;
 }
 
-.social ul li {
+.social ul li{
     text-decoration: none;
     list-style: none;
     display: inline-block;
@@ -216,6 +216,9 @@ footer {
     width: 100%;
     background-color: rgba(27, 27, 27, 0.938);
     margin-top: -10px;
+    display: flex;
+    justify-content: center;
+
 }
 
 @media screen and (min-width:0px) and (max-width:576px) {
@@ -233,7 +236,7 @@ footer {
     }
 
     footer {
-        height: 500px;
+        height: 350px;
         width: 100%;
         background-color: rgba(27, 27, 27, 0.938);
         text-align: center;

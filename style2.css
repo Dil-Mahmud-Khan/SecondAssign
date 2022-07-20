@@ -195,6 +195,23 @@ footer{
     color: rgb(167, 169, 172);
     cursor: pointer;
 }
+.social ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.social {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(27, 27, 27, 0.938);
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+}
 
 @media screen and (min-width:0px) and (max-width:576px) {
     .blackdiv {
