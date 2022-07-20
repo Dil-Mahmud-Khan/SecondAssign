@@ -40,7 +40,8 @@ body{
     border: none;
     color: white;
     font-size: large; 
-    border-radius: 6px;   
+    border-radius: 6px;
+    cursor: pointer;   
 }
 .menu button{
     font-family: 'Great Vibes', cursive;

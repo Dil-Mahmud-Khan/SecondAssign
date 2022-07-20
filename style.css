@@ -193,6 +193,8 @@ footer {
     color: white;
     font-size: large;
     border-radius: 6px;
+    cursor: pointer;
+
 }
 
 .vwbtn {
