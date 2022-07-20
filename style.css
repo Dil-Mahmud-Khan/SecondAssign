@@ -203,7 +203,7 @@ footer {
     visibility: hidden;
 }
 
-.social ul li{
+.social ul li {
     text-decoration: none;
     list-style: none;
     display: inline-block;
@@ -221,6 +221,8 @@ footer {
     justify-content: center;
 
 }
+
+/* Mobie Version Responsiveness Starts */
 
 @media screen and (min-width:0px) and (max-width:576px) {
     .blackdiv {
@@ -273,6 +275,12 @@ footer {
     }
 
 }
+
+/* Mobie Version Responsiveness ends */
+
+
+/* Tablet Version Responsiveness Starts */
+
 
 @media screen and (min-width:577px) and (max-width:992px) {
     .blackdiv {
@@ -341,3 +349,5 @@ footer {
     }
 
 }
+
+/* Tablet Version Responsiveness Starts */
