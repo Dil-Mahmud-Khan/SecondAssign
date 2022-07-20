@@ -180,6 +180,44 @@ footer {
     cursor: pointer;
 }
 
+.viewbtn {
+    font-family: 'Great Vibes', cursive;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+    padding: 6px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: large;
+    border-radius: 6px;
+}
+
+.vwbtn {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 30px;
+    visibility: hidden;
+}
+
+.social ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.social {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(27, 27, 27, 0.938);
+    margin-top: -10px;
+}
+
 @media screen and (min-width:0px) and (max-width:576px) {
     .blackdiv {
         display: inline-block;
@@ -231,6 +269,7 @@ footer {
     }
 
 }
+
 @media screen and (min-width:577px) and (max-width:992px) {
     .blackdiv {
         display: flex;
@@ -239,7 +278,8 @@ footer {
     .sec2 {
         display: inline-block;
     }
-    .marcelo{
+
+    .marcelo {
         padding-top: 80px;
     }
 
@@ -253,16 +293,18 @@ footer {
         height: 400px;
         width: 100%;
         background-color: rgba(27, 27, 27, 0.938);
-        text-align: center;        
+        text-align: center;
 
     }
+
     .menu {
         display: inline;
-        
+
         background-color: white;
 
     }
-    .menu ul{
+
+    .menu ul {
         display: flex;
         justify-content: center;
     }
@@ -277,7 +319,7 @@ footer {
 
     .cardsalah {
         margin-left: 110px;
-        
+
     }
 
     .foot ul li {
@@ -289,5 +331,9 @@ footer {
         align-items: center;
         padding-right: 150px;
     }
-    
+
+    .vwbtn {
+        visibility: visible;
+    }
+
 }
